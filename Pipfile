@@ -4,7 +4,7 @@ verify_ssl = false
 name = "kassia"
 
 [packages]
-pylsltools = {editable = true, ref = "main", git = "http://kassia.local/neurolive/pylsl-tools"}
+pylsltools = {editable = true, ref = "main", git = "git+http://kassia.local/neurolive/pylsl-tools"}
 
 [requires]
 python_version = "3.11"
