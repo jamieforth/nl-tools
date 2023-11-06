@@ -28,11 +28,11 @@ ssh eeg-a
    been configured on the tablet.
    - To check this, ssh into the tablet and check if
      `C:\Users\neuro\.ssh\authorized_keys` exists.
-   - If not: `mkdir .ssh`
-   - `exit`
+   - If not on the tablet: `mkdir .ssh`
+   - `exit` to return to your laptop
    - On your laptop: `scp ssh/authorized_keys eeg-a:.ssh/`
-   - ssh back into the tablet and run powershell as Administrator and
-     run `notepad`.
+   - On the tablet (use the screen) run powershell as Administrator
+     and run `notepad`.
    - In notepad open the file `C:\ProgramData\ssh\sshd_config` (select
      `All files`).
    - Comment out the two lines at the bottom starting `Match Group
