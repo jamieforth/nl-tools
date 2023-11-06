@@ -49,7 +49,7 @@ python --version
 3. Install pipenv from `kassia.local`.
 
 ```
-pip install pipenv -i http://kassia.local/simple --trusted-host kassia.local
+pip install pipenv -i http://kassia.local/neuroive/simple --trusted-host kassia.local
 ```
 
 ```
