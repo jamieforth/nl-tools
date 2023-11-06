@@ -43,7 +43,7 @@ ssh eeg-a
    - Then `ssh eeg-a` should log you in without a password.
    - If you are using an ssh-agent/password manager, you might need to
      run the following first: `ssh-add ~/.ssh/id_rsa-neurolive` (the
-     passphrase is the same as the tablet passwords).
+     passphrase is the same as the tablet passwords). On a Windows machine, the command should be: `ssh-add "C\Users\<USERNAME>\id_rsa-neurolive"`
 
 
 ## pylsl-tools
@@ -63,7 +63,7 @@ python --version
 3. Install pipenv from `kassia.local`.
 
 ```
-pip install pipenv -i http://kassia.local/neuroive/simple --trusted-host kassia.local
+pip install pipenv -i http://kassia.local/neurolive/simple --trusted-host kassia.local
 ```
 
 ```
