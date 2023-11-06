@@ -31,8 +31,10 @@ ssh eeg-a
    - If not on the tablet: `mkdir .ssh`
    - `exit` to return to your laptop
    - On your laptop: `scp ssh/authorized_keys eeg-a:.ssh/`
-   - On the tablet (use the screen) run powershell as Administrator
-     and run `notepad`.
+   - On the tablet (use the screen) enable `Show hidden items`: Open
+     File Explorer and select `Show hidden items` (it's an option in
+     the top bar).
+   - On the tablet open powershell as Administrator and run `notepad`.
    - In notepad open the file `C:\ProgramData\ssh\sshd_config` (select
      `All files`).
    - Comment out the two lines at the bottom starting `Match Group
