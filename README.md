@@ -1,4 +1,12 @@
 # Neurolive tablet setup
+
+Clone this repository to your laptop.
+
+```
+cd <some place you want to download this repository>
+git clone https://github.com/jamieforth/nl-tools.git
+```
+
 ## ssh
 
 1. On your laptop copy `ssh/config` into `~/.ssh/config` (or copy and
