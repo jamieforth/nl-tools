@@ -86,7 +86,7 @@ Then the tablet stream (and any other stream on the network) can be
 remote controlled from this terminal window.
 
 
-# Windows batch scripts
+## Windows batch scripts
 
 1. script to start `LSL server` and `lsl-relay`.
    - place this on the desktop?
