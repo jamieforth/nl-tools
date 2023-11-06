@@ -43,7 +43,11 @@ ssh eeg-a
    - Then `ssh eeg-a` should log you in without a password.
    - If you are using an ssh-agent/password manager, you might need to
      run the following first: `ssh-add ~/.ssh/id_rsa-neurolive` (the
-     passphrase is the same as the tablet passwords). On a Windows machine, the command should be: `ssh-add "C\Users\<USERNAME>\id_rsa-neurolive"`
+     passphrase is the same as the tablet passwords).
+
+     On a Windows machine, there are two extra steps:
+      2. Go to Services-> OpenSSH Authentication Agent and change startup type to 'Automatic', Apply, and Start the service.
+      2. From PowerShell, run : `ssh-add "C:\Users\<USERNAME>\id_rsa-neurolive"` (changing USERNAME to your windows username)
 
 
 ## pylsl-tools
