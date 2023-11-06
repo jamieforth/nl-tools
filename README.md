@@ -34,6 +34,9 @@ ssh eeg-a
 
 ## pylsl-tools
 
+Install the [pylsl-tools](https://github.com/jamieforth/pylsl-tools)
+package.
+
 
 1. ssh into a tablet.
 2. Check python and git are installed.
