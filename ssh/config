@@ -57,23 +57,26 @@ Host eeg-o
 Host eeg-p
      HostName DESKTOP-S597Q21.local
 
-# Host eeg-q
-#      HostName DESKTOP.local
+Host eeg-q
+     HostName DESKTOP-OE9298C.local
 
-# Host eeg-r
-#      HostName DESKTOP.local
+Host eeg-r
+     HostName DESKTOP-MK0GQFM.local
 
-# Host eeg-s
-#      HostName DESKTOP.local
+Host eeg-s
+     HostName DESKTOP-7GV3RJU.local
 
-# Host eeg-t
-#      HostName DESKTOP.local
+Host eeg-t
+     HostName DESKTOP-S5A1PPK.local
 
-# Host eeg-u
-#      HostName DESKTOP.local
+Host eeg-u
+     HostName TABLET-3BS4NTP2.local
 
-# Host eeg-v
-#      HostName DESKTOP.local
+Host eeg-v
+     HostName DESKTOP-QG4CNEV.local
 
-# Host eeg-w
-#      HostName DESKTOP.local
+Host eeg-w
+     HostName TABLET-STDTE3Q6.local
+
+Host eeg-x
+     HostName DESKTOP-T3RKRMH.local
