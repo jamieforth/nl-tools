@@ -1,0 +1,79 @@
+## Neurolive
+
+Host *
+     # For MacOS
+     IgnoreUnknown UseKeychain
+     UseKeychain yes
+
+Host eeg-*
+     User neuro
+     CertificateFile ~/.ssh/id_rsa-neurolive
+
+Host eeg-a
+     HostName DESKTOP-3R7C1PH.local
+
+Host eeg-b
+     HostName DESKTOP-2TI6RBU.local
+
+Host eeg-c
+     HostName DESKTOP-MN7K6RM.local
+
+Host eeg-d
+     HostName DESKTOP-URRV98M.local
+
+Host eeg-e
+     HostName DESKTOP-DATOEVU.local
+
+Host eeg-f
+     HostName TABLET-9I44R1AR.local
+
+Host eeg-g
+     HostName DESKTOP-SLAKFQE.local
+
+Host eeg-h
+     HostName DESKTOP-6FJTJJN.local
+
+Host eeg-i
+     HostName DESKTOP-HDOESKS.local
+
+Host eeg-j
+     HostName DESKTOP-LIA3G09.local
+
+Host eeg-k
+     HostName DESKTOP-V6779I4.local
+
+Host eeg-l
+     HostName DESKTOP-PLV2A7L.local
+
+Host eeg-m
+     HostName DESKTOP-SSSOE1L.local
+
+Host eeg-n
+     HostName DESKTOP-RM16J67.local
+
+Host eeg-o
+     HostName DESKTOP-N2RA68S.local
+
+Host eeg-p
+     HostName DESKTOP-S597Q21.local
+
+# Host eeg-q
+#      HostName DESKTOP.local
+
+# Host eeg-r
+#      HostName DESKTOP.local
+
+# Host eeg-s
+#      HostName DESKTOP.local
+
+# Host eeg-t
+#      HostName DESKTOP.local
+
+# Host eeg-u
+#      HostName DESKTOP.local
+
+# Host eeg-v
+#      HostName DESKTOP.local
+
+# Host eeg-w
+#      HostName DESKTOP.local
