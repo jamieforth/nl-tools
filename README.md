@@ -30,8 +30,9 @@ ssh eeg-a
      `C:\Users\neuro\.ssh\authorized_keys` exists.
    - If not: `mkdir .ssh`
    - `exit`
-   - `scp ssh/authorized_keys eeg-a:.ssh/`
-   - Run powershell as Administrator and run `notepad`.
+   - On your laptop: `scp ssh/authorized_keys eeg-a:.ssh/`
+   - ssh back into the tablet and run powershell as Administrator and
+     run `notepad`.
    - In notepad open the file `C:\ProgramData\ssh\sshd_config` (select
      `All files`).
    - Comment out the two lines at the bottom starting `Match Group
