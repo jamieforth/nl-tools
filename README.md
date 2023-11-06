@@ -47,7 +47,7 @@ ssh eeg-a
 
      On a Windows machine, there are two extra steps:
       2. Go to Services-> OpenSSH Authentication Agent and change startup type to 'Automatic', Apply, and Start the service.
-      2. From PowerShell, run : `ssh-add "C:\Users\<USERNAME>\id_rsa-neurolive"` (changing USERNAME to your windows username)
+      2. From PowerShell, run : `ssh-add "C:\Users\<USERNAME>\.ssh\id_rsa-neurolive"` (changing USERNAME to your windows username)
 
 
 ## pylsl-tools
