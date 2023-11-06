@@ -4,7 +4,10 @@ Clone this repository to your laptop.
 
 ```
 cd <some place you want to download this repository>
+
 git clone https://github.com/jamieforth/nl-tools.git
+
+cd nl-tools
 ```
 
 ## ssh
