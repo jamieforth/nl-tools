@@ -109,7 +109,14 @@ remote controlled from this terminal window.
 
 ## Windows batch scripts
 
-1. script to start `LSL server` and `lsl-relay`.
-   - place this on the desktop?
-   - or will we start remotely via an ssh script?
-2. script to pull software updates from Jamie F's laptop?
+Before doing any of the below options, some batch scripts need to be copied to the tablets. You can do this by calling the python script ```copy_files_to_devices.py``` from your main machine.
+
+1. You can start both the AntNeuro EEG remote software plus the lsl_relay from a single script on the Desktop of each tablet. You can run this by:
+   - on the tablet, click on the 'lsl_run.bat' file
+   - ...working on how to do this remotely
+2. A single script is also used to update Jamie F's software. You can find this in the C:/Users/neuro home directory. Call either by
+   - on the tablet, go to File Explorer, navigate to C:/Users/neuro and click on the 'nl_tools_update.bat' file
+   - [easier] ssh into the tablet, and run ```nl_tools_update```
+   - [most convenient] from your main machine, run the python script ```update_all_devices.py```
+   - 
+   
