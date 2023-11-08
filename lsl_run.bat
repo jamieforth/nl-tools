@@ -12,7 +12,7 @@ cd %EEGOPATH%
 start "LSL EEG" %EEGOPATH%start.bat"
 
 cd %RUNPATH%
-start "LSL Relay" %PIPENV% run lsl-relay
+start "LSL Relay" %PIPENV% run lsl-relay --no-output
 
 REM start "LSL Simulation" %PIPENV% run lsl-simulate -n 1 -s 2 --max-time 10 --debug
 

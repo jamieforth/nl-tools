@@ -41,7 +41,7 @@ import os
 
 def scp_file(source_file, destination, remote_address, username, password):
     
-    scp_command = f'scp {source_file} {username}@{remote_address}:{destination}'
+    scp_command = f'scp -o StrictHostKeyChecking=no -o ConnectTimeout=10 {source_file} {username}@{remote_address}:{destination}'
     print(scp_command)
 
     # For password-based authentication, you can use the Popen() function
@@ -67,7 +67,7 @@ def copy_file_to_devices(source_file, destination_file, devices):
 
 
 def execute_remote_command_ssh(hostname, username, password, command):
-    ssh_command = f'ssh {username}@{hostname} "{command}"'
+    ssh_command = f'ssh -o StrictHostKeyChecking=no {username}@{hostname} "{command}"'
 
     print(ssh_command)
     try:
@@ -108,7 +108,7 @@ devices = [
     {'host': 'eeg-i', 'username': 'neuro', 'password': 'neuro'},
     {'host': 'eeg-j', 'username': 'neuro', 'password': 'neuro'},
     {'host': 'eeg-k', 'username': 'neuro', 'password': 'neuro'},
-    {'host': 'eeg-l', 'username': 'neuro', 'password': 'neuro'},
+    {'host': 'eeg-l', 'username': 'neuro', 'password': 'neuro'}, 
     {'host': 'eeg-m', 'username': 'neuro', 'password': 'neuro'},
     {'host': 'eeg-n', 'username': 'neuro', 'password': 'neuro'},
     {'host': 'eeg-o', 'username': 'neuro', 'password': 'neuro'}, #gs
@@ -120,10 +120,10 @@ devices = [
     {'host': 'eeg-u', 'username': 'neuro', 'password': 'neuro'},
     {'host': 'eeg-v', 'username': 'neuro', 'password': 'neuro'},
     {'host': 'eeg-w', 'username': 'neuro', 'password': 'neuro'},
-    {'host': 'eeg-x', 'username': 'neuro', 'password': 'neuro'},
-    {'host': 'eeg-y', 'username': 'neuro', 'password': 'neuro'},
-    {'host': 'eeg-z', 'username': 'neuro', 'password': 'neuro'}
-    #{'host': 'DESKTOP-MK0GQFM.local', 'username': 'neuro', 'password': 'neuro'}
+    {'host': 'eeg-x', 'username': 'neuro', 'password': 'neuro'}
+    #{'host': 'eeg-y', 'username': 'neuro', 'password': 'neuro'},
+    #{'host': 'eeg-z', 'username': 'neuro', 'password': 'neuro'}
+    # #{'host': 'DESKTOP-MK0GQFM.local', 'username': 'neuro', 'password': 'neuro'}
 ]
 
 
