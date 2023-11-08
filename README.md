@@ -117,6 +117,6 @@ Before doing any of the below options, some batch scripts need to be copied to t
 2. A single script is also used to update Jamie F's software. You can find this in the ```C:/Users/neuro/Desktop```  directory. Call either by
    - on the tablet, go to File Explorer, navigate to ```C:/Users/neuro/Desktop``` and click on the ```nl_tools_update.bat``` file
    - [easier] ssh into the tablet, and run ```nl_tools_update.bat```
-   - [most convenient] from your main machine, run the python script ```update_all_devices.py```
-   - 
+   
+     
    
