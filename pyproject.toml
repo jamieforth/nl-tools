@@ -1,0 +1,20 @@
+[project]
+name = "nl-tools"
+version = "0.1.0"
+description = "Neurolive performance tools"
+authors = [
+    {name = "Jamie Forth", email = "j.forth@gold.ac.uk"},
+]
+dependencies = ["pylsltools @ git+http://neurolive.local/neurolive/pylsl-tools@tablets"]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "AGPL-3.0-or-later"}
+
+
+[tool.pdm]
+distribution = false
+
+[[tool.pdm.source]]
+url = "http://kassia.local/neurolive/simple"
+verify_ssl = false
+name = "neurolive"
