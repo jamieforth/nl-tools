@@ -5,7 +5,7 @@ description = "Neurolive performance tools"
 authors = [
     {name = "Jamie Forth", email = "j.forth@gold.ac.uk"},
 ]
-dependencies = ["pylsltools @ git+http://neurolive.local/neurolive/pylsl-tools@tablets"]
+dependencies = ["pylsltools @ git+http://neurolive.local/src/pylsl-tools.git"]
 requires-python = "==3.11.*"
 readme = "README.md"
 license = {text = "AGPL-3.0-or-later"}
@@ -15,6 +15,6 @@ license = {text = "AGPL-3.0-or-later"}
 distribution = false
 
 [[tool.pdm.source]]
-url = "http://kassia.local/neurolive/simple"
+url = "http://neurolive.local/pypi/simple"
 verify_ssl = false
 name = "neurolive"
